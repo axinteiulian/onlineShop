@@ -125,7 +125,7 @@ window.ToDoList = {
 
     }
 
-    $("#Task-table").delegate(".delete-task", "click", function(event))
+    $("#Task-table").delegate(".delete-task", "click", function(event)){
             { event.preventDefault();
             ToDoList.deleteTask(taskId)
 
