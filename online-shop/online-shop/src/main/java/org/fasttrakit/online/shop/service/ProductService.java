@@ -54,7 +54,8 @@ private static final Logger LOGGER = LoggerFactory.getLogger(ProductService.clas
         productRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Product" + id + "not found."));
 
 
+        return null;
+    }
+}
 
-}
-}
 
